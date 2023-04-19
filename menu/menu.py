@@ -1,6 +1,6 @@
 import os
 import time
-from colorama import Fore
+from colorama import Fore, Style
 
 def menu():
 	return F"""{Fore.RED}
@@ -11,5 +11,5 @@ def menu():
 #    #      #   #        # #####  #      #    # #   #   
 #    # #    #   #   #    # #      #      #    # #   #   
 #####   ####    #    ####  #      ######  ####  #   #   
-                                                        {Fore.RESET_ALL}
+                                                        {Style.RESET_ALL}
 	"""
