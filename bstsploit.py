@@ -4,4 +4,7 @@ import requests
 from menu.menu import menu
 from colorama import Fore, Style
 
-print(menu())
+while True:
+	op = menu()
+	if op == "bstsubprosses":
+		print('funcionou!!')
